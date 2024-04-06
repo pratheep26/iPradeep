@@ -9,6 +9,9 @@ public class Rithu {
 
     WebDriver driver = new ChromeDriver();
     driver.get("https://www.google.com");
+    System.out.println(driver.getCurrentUrl());
+    String title = driver.getTitle();
+    System.out.println(title);
   }
 
 }
