@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-04T15:10:08 IST" name="Default suite" finished-at="2024-04-04T15:10:31 IST" duration-ms="23063">
+    <groups>
+    </groups>
+    <test started-at="2024-04-04T15:10:08 IST" name="Default test" finished-at="2024-04-04T15:10:31 IST" duration-ms="23063">
+      <class name="ecommerce.ProjectEcommerce.CheckOutTheProduct">
+        <test-method is-config="true" signature="launchTheApplication()[pri:0, instance:ecommerce.ProjectEcommerce.CheckOutTheProduct@59505b48]" started-at="2024-04-04T15:10:08 IST" name="launchTheApplication" finished-at="2024-04-04T15:10:25 IST" duration-ms="17345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheApplication -->
+        <test-method signature="Checkout()[pri:0, instance:ecommerce.ProjectEcommerce.CheckOutTheProduct@59505b48]" started-at="2024-04-04T15:10:25 IST" name="Checkout" finished-at="2024-04-04T15:10:31 IST" duration-ms="5452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecommerce.ProjectEcommerce.CheckOutTheProduct@59505b48]" started-at="2024-04-04T15:10:31 IST" name="tearDown" finished-at="2024-04-04T15:10:31 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ecommerce.ProjectEcommerce.CheckOutTheProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
