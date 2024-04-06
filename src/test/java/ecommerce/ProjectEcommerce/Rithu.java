@@ -12,17 +12,6 @@ public class Rithu {
 
     String title = driver.getTitle();
     System.out.println(title);
-    System.out.println(title);
-    System.out.println(title);
-    System.out.println(title);
-
-    WebDriver d = new ChromeDriver();
-    driver.get("https://www.google.com");
-
-    String title1 = driver.getTitle();
-    System.out.println(title1);
-
-
   }
 
 }
