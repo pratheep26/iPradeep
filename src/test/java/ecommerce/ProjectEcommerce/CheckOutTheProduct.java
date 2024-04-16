@@ -19,7 +19,7 @@ public class CheckOutTheProduct extends BaseTest {
 		GoToCheckoutScreen goToCheckoutScreen = productListing.AddProductToCart(phoneName);
 		goToCheckoutScreen.CheckOutScreen();
 		boolean isMatch = goToCheckoutScreen.VerifyAddedProduct(phoneName);
-		Assert.assertFalse(isMatch);
+		Assert.assertTrue(isMatch);
 		System.out.println("Success the continues integration");
 	}
 
